@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ace Code Editor Sample</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                min-height: 2000px;
+                padding-top: 70px;
+            }
+
+            #editor {
+                white-space: normal;
+                height: 200px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" onlick="return false;">Ace Code Editor Sample</a>
+            </div>
+        </div>
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Ace Code Editor Sample</h1>
+                <p>My Syntax Highlight</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="editor" class="row">"hoge" and "fuga"</div>
+        </div>
+        <script src="/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            var editor = ace.edit("editor");
+            editor.setTheme("ace/theme/monokai");
+            editor.getSession().setMode("ace/mode/sample");
+        </script>
+    </body>
+</html>
+
