@@ -1,7 +1,7 @@
 Ace Code Editor Syntax Highlight getting started
 =====
 
-[Ace](http://ace.c9.io/)
+What is [Ace](http://ace.c9.io/)
 
 # 概要
 
@@ -11,3 +11,4 @@ Ace Code Editor Syntax Highlight getting started
 ```
 HOGE and "fuga" or not 'piyo'
 ```
+
